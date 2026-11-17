@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти | Спорт щодня</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">СПОРТ ЩОДНЯ</a>
+    <nav class="nav">
+      <a href="index.html">Головна</a>
+      <a href="training.html">Тренування</a>
+      <a href="contacts.html" class="active">Контакти</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Контакти</h1>
+      <p>Напиши, якщо хочеш разом потренуватися або маєш питання.</p>
+    </section>
+
+    <section class="container contact-layout">
+      <div>
+        <h2 class="section-title">Де мене знайти</h2>
+        <ul class="info-list">
+          <li><strong>Пошта:</strong> sport@example.com</li>
+          <li><strong>Телефон:</strong> +380 00 000 00 00</li>
+          <li><strong>Місто:</strong> Бар, Вінницька область</li>
+          <li><strong>Тренування:</strong> щодня о 18:00</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="section-title">Написати мені</h2>
+        <form action="#" method="post">
+          <label for="name">Ім'я</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Пошта</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="msg">Повідомлення</label>
+          <textarea id="msg" name="msg" rows="5" required></textarea>
+
+          <button class="btn" type="submit">Надіслати</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Спорт щодня. Лабораторна робота з веб-технологій.</p>
+  </footer>
+</body>
+</html>
